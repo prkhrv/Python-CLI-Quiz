@@ -1,23 +1,19 @@
 def start_quiz(questions):
     score = 0
-    for i in range(0, len(questions)):
-        print(questions[i]["question"]+"\n")
+    for index, question in enumerate(questions):
+        print(question["question"] + "\n")
         for j in range(1, 5):
-            print(str(j)+" "+questions[i]["option"+str(j)])
-            print()
+            print(str(j) + " " + question["option" + str(j)], '\n')
         answer = int(input())
         print()
-        if(answer > 0 and answer < 5):
-            if(questions[i]["correct_answer"] == "option"+str(answer)):
+        if 5 > answer > 0:
+            if question["correct_answer"] == "option" + str(answer):
                 print("Correct Answer!!!\n")
-                score = score + 1
+                score += 1
             else:
-                correct_answer = questions[i]["correct_answer"]
-                print("Wrong!! The Correct Answer is {}".format(
-                    questions[i][correct_answer]))
-                print()
+                correct_answer = question["correct_answer"]
+                print("Wrong!! The Correct Answer is {}".format(question[correct_answer]), '\n')
         else:
             print("Invalid Choice\n")
-            continue
 
-    print("Your Score is {}/{}".format(score,len(questions)))
+    print("Your Score is {}/{}".format(score, len(questions)))
