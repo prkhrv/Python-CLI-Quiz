@@ -140,5 +140,29 @@
         "option3": "Mars",
         "option4": "Jupiter",
         "correct_answer": "option3"
+    },
+    {
+        "question": "Arachnophobia is the fear of what?",
+        "option1": "Frogs",
+        "option2": "Spiders",
+        "option3": "Bees",
+        "option4": "Mosquitoes",
+        "correct_answer": "option2"
+    },
+    {
+        "question": "How many hearts do octopuses have?",
+        "option1": "4",
+        "option2": "2",
+        "option3": "3",
+        "option4": "1",
+        "correct_answer": "option3"
+    },
+    {
+        "question": "Which is the most sensitive of the senses?",
+        "option1": "Smell",
+        "option2": "Touch",
+        "option3": "Sight",
+        "option4": "Hearing",
+        "correct_answer": "option1"
     }]
 }
