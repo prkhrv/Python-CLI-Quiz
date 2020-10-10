@@ -7,9 +7,14 @@ def start_quiz(questions):
         for j in range(1, 5):
             print(str(j)+" "+questions[i]["option"+str(j)])
             print()
-        answer = int(input())
+        try:
+            answer = int(input())
+        except ValueError:
+            print(chalk.cyan('Please enter a choice between 1 and 4\n'))
+            
+            continue
         print()
-        if(answer > 0 and answer < 5):
+        if answer > 0 and answer < 5:
             if(questions[i]["correct_answer"] == "option"+str(answer)):
                 print(chalk.green("Correct Answer!!!\n"))
                 score = score + 1
@@ -19,7 +24,6 @@ def start_quiz(questions):
                     questions[i][correct_answer])))
                 print()
         else:
-            print("Invalid Choice\n")
-            continue
+            print(chalk.yellow("Invalid Choice\n"))
 
     print(chalk.yellow("Your Score is {}/{}".format(score,len(questions))))
