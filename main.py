@@ -1,4 +1,5 @@
 from quiz import start_quiz
+import random
 
 # QUESTIONS 
 questions = [{
@@ -51,7 +52,7 @@ questions = [{
     "option2": "New York",
     "option3": "New Jersey",
     "option4": "Las Vegas",
-    "correct_answer": "option4"
+    "correct_answer": "option1"
 
 },
 {
@@ -143,5 +144,8 @@ questions = [{
     "correct_answer": "option3"
 }]
 
+
+random_questions = random.sample(questions, k=5)
+
 # RUN QUIZ 
-start_quiz(questions)
+start_quiz(random_questions)

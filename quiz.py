@@ -1,3 +1,5 @@
+from simple_chalk import chalk
+
 def start_quiz(questions):
     score = 0
     for i in range(0, len(questions)):
@@ -9,15 +11,15 @@ def start_quiz(questions):
         print()
         if(answer > 0 and answer < 5):
             if(questions[i]["correct_answer"] == "option"+str(answer)):
-                print("Correct Answer!!!\n")
+                print(chalk.green("Correct Answer!!!\n"))
                 score = score + 1
             else:
                 correct_answer = questions[i]["correct_answer"]
-                print("Wrong!! The Correct Answer is {}".format(
-                    questions[i][correct_answer]))
+                print(chalk.red("Wrong!! The Correct Answer is {}".format(
+                    questions[i][correct_answer])))
                 print()
         else:
             print("Invalid Choice\n")
             continue
 
-    print("Your Score is {}/{}".format(score,len(questions)))
+    print(chalk.yellow("Your Score is {}/{}".format(score,len(questions))))
