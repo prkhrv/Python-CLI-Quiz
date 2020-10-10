@@ -57,6 +57,46 @@ questions = [{
     "option3": "Savoys",
     "option4": "Porteño",
     "correct_answer": "option4"
+},
+{
+    "question": "What is the name of the biggest technology company in South Korea?",
+    "option1": "Sony",
+    "option2": "Samsung",
+    "option3": "JVC",
+    "option4": "Hyundai Motors",
+    "correct_answer": "option2"
+},
+{
+    "question": "What is the world’s smallest bird?",
+    "option1": "Bee Hummingbird",
+    "option2": "Violetear",
+    "option3": "Goldcrest",
+    "option4": "Weebill",
+    "correct_answer": "option1"
+},
+{
+    "question": "What is the capital of Portugal?",
+    "option1": "Santa Cruz",
+    "option2": "Porto",
+    "option3": "Lagos",
+    "option4": "Lisbon",
+    "correct_answer": "option4"
+},
+{
+    "question": "What is a group of lions called?",
+    "option1": "A Murder",
+    "option2": "A Pride",
+    "option3": "A CatPack",
+    "option4": "A Herd",
+    "correct_answer": "option2"
+},
+{
+    "question": "What planet is known as the red planet?",
+    "option1": "Venus",
+    "option2": "Mercury",
+    "option3": "Mars",
+    "option4": "Jupiter",
+    "correct_answer": "option3"
 }]
 
 # RUN QUIZ 
