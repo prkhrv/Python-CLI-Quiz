@@ -1,23 +1,17 @@
 from quiz import start_quiz
+import random
+import json
 
 # QUESTIONS 
-questions = [{
-    "question": "What is the Capital of Uttar Pradesh?",
-    "option1": "Kanpur",
-    "option2": "Lucknow",
-    "option3": "Noida",
-    "option4": "Varanasi",
-    "correct_answer": "option2"
-},
-{
-    "question": "What is the Currency of UAE?",
-    "option1": "Dirham",
-    "option2": "Rupee",
-    "option3": "Dollar",
-    "option4": "Taka",
-    "correct_answer": "option1"
+with open('./questions.json') as f:
+    data = json.load(f)
 
-}]
+
+questions = data["questions"]
+
+# RANDOM QUESTIONS
+
+random_questions = random.sample(questions, k=5)
 
 # RUN QUIZ 
-start_quiz(questions)
+start_quiz(random_questions)
