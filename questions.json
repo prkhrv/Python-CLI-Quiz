@@ -166,7 +166,7 @@
         "correct_answer": "option1"
     }, 
     {
-        "question": "Which is not a Structured Query Language?",
+        "question": "Which is NOT a RDBMS?",
         "option1": "MySQL",
         "option2": "Postgres",
         "option3": "MongoDB",
