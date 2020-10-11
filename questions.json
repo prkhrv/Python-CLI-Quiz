@@ -164,5 +164,45 @@
         "option3": "Sight",
         "option4": "Hearing",
         "correct_answer": "option1"
+    },
+    {
+        "question": "Which countries exist in Southeast Asia?",
+        "option1": "Afghanistan",
+        "option2": "Turkey",
+        "option3": "Japan",
+        "option4": "Indonesia",
+        "correct_answer": "option4"
+    },
+    {
+        "question": "How many continents are there in the world?",
+        "option1": "8",
+        "option2": "7",
+        "option3": "6",
+        "option4": "5",
+        "correct_answer": "option3"
+    },
+    {
+        "question": "Who is the inventor of Television ?",
+        "option1": "Thomas Alva Edision",
+        "option2": "Philo Farnsworth",
+        "option3": "Alexander Graham Bell",
+        "option4": "Michael Faraday",
+        "correct_answer": "option2"
+    },
+    {
+        "question": "The following are not the names of the galaxies?",
+        "option1": "Rigel",
+        "option2": "Andromeda",
+        "option3": "Milky Way",
+        "option4": "Magellanic Clouds",
+        "correct_answer": "option1"
+    },
+    {
+        "question": "What is the name of the planet Jupiter satellite?",
+        "option1": "Titania",
+        "option2": "Miranda",
+        "option3": "Adrastea",
+        "option4": "Ariel",
+        "correct_answer": "option3"
     }]
 }
