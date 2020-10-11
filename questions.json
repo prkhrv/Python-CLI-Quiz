@@ -164,6 +164,62 @@
         "option3": "Sight",
         "option4": "Hearing",
         "correct_answer": "option1"
+    }, 
+    {
+        "question": "Which is not a Structured Query Language?",
+        "option1": "MySQL",
+        "option2": "Postgres",
+        "option3": "MongoDB",
+        "option4": "MariaDB",
+        "correct_answer": "option3"
+    },
+    {
+        "question": "Which of the following is not a framework of python?",
+        "option1": "Django",
+        "option2": "Flask",
+        "option3": "Hug",
+        "option4": "Spring",
+        "correct_answer": "option4"
+    },
+    {
+        "question": "How many bits are there in a MAC address?",
+        "option1": "128",
+        "option2": "32",
+        "option3": "48",
+        "option4": "64",
+        "correct_answer": "option3"
+    },
+    {
+        "question": "What is the remainder when 6^5626945 is divided by 35?",
+        "option1": "1",
+        "option2": "6",
+        "option3": "0",
+        "option4": "34",
+        "correct_answer": "option2"
+    },
+    {
+        "question": "What is e^(i*pi), where i is square root of -1?",
+        "option1": "2*e^(1/pi^e)",
+        "option2": "1",
+        "option3": "0",
+        "option4": "-1",
+        "correct_answer": "option4"
+    },
+    {
+        "question": "What kind of language is Python?",
+        "option1": "Compiled",
+        "option2": "Interpreted",
+        "option3": "Markup",
+        "option4": "Snake",
+        "correct_answer": "option2"
+    },
+    {
+        "question": "What does 'C' in 'MVC' stand for?",
+        "option1": "Command",
+        "option2": "Controller",
+        "option3": "Creator",
+        "option4": "Catch",
+        "correct_answer": "option2"
     },
     {
         "question": "Which countries exist in Southeast Asia?",
@@ -204,9 +260,8 @@
         "option3": "Adrastea",
         "option4": "Ariel",
         "correct_answer": "option3"
-    }]
-    
-    {
+    },
+       {
         "question": "Which Year was the United Nations founded?",
         "option1": "1945",
         "option2": "1947",
