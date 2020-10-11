@@ -165,4 +165,85 @@
         "option4": "Hearing",
         "correct_answer": "option1"
     }]
+    // Contributed by @justobioma
+    {
+        "question": "Which Year was the United Nations founded?",
+        "option1": "1945",
+        "option2": "1947",
+        "option3": "1949",
+        "option4": "1951",
+        "correct_answer": "option 1"
+    },
+    {
+        "question": "Who was US President lead his country into WW2?",
+        "option1": "President A. Lincoln",
+        "option2": "President J.F. Kennedy",
+        "option3": "President F.D. Roosevelt",
+        "option4": "President H. Truman",
+        "correct_answer": "option 3"
+    },
+    {
+        "question": "Which year did the Spanish Flu emerge?",
+        "option1": "1908",
+        "option2": "1918",
+        "option3": "1928",
+        "option4": "1938",
+        "correct_answer": "option 2"
+    },
+   {
+        "question": "What is the most populous country in Africa?",
+        "option1": "Ethiopia",
+        "option2": "South Africa",
+        "option3": "Egypt",
+        "option4": "Nigeria",
+        "correct_answer": "option 4"
+    },
+    {
+        "question": "Which of these countries in Africa was never colonised?",
+        "option1": "Ethiopia",
+        "option2": "South Africa",
+        "option3": "Egypt",
+        "option4": "Nigeria",
+        "correct_answer": "option 1"
+    },
+    {
+        "question": "Which is the longest river in Africa?",
+        "option1": "Nile",
+        "option2": "Zambezi",
+        "option3": "Congo",
+        "option4": "Niger",
+        "correct_answer": "option 1"
+    },
+    {
+        "question": "Which year was Javascript invented?",
+        "option1": "1991",
+        "option2": "1993",
+        "option3": "1995",
+        "option4": "1997",
+        "correct_answer": "option 3"
+    },
+    {
+        "question": "Which of these is a database company?",
+        "option1": "Uber",
+        "option2": "Square",
+        "option3": "Oracle",
+        "option4": "Facebook",
+        "correct_answer": "option 3"
+    },
+    {
+        "question": "Which is the biggest Social media company?",
+        "option1": "Google+",
+        "option2": "Twitter",
+        "option3": "Snapchat",
+        "option4": "Facebook",
+        "correct_answer": "option 4"
+    },
+    {
+        "question": "Which of these companies makes electric cars?",
+        "option1": "Uber",
+        "option2": "Tesla",
+        "option3": "Boeing",
+        "option4": "Hertz",
+        "correct_answer": "option 2"
+    }]
 }
