@@ -340,5 +340,13 @@
         "option3": "Boeing",
         "option4": "Hertz",
         "correct_answer": "option2"
+    },
+    {
+        "question": "which country was origin of COVID 19?",
+        "option1": "Kenya",
+        "option2": "Spain",
+        "option3": "China",
+        "option4": "Italy",
+        "correct_answer": "option3"
     }]
 }
