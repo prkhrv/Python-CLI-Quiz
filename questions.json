@@ -340,5 +340,13 @@
         "option3": "Boeing",
         "option4": "Hertz",
         "correct_answer": "option2"
+    },
+    {
+        "question": "What is the Capital of New Zealand ?",
+        "option1": "Auckland",
+        "option2": "Wellington",
+        "option3": "Christchurch",
+        "option4": "Queenstown",
+        "correct_answer": "option2"
     }]
 }
