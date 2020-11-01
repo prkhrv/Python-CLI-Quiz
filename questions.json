@@ -342,6 +342,23 @@
         "correct_answer": "option2"
     },
     {
+
+        "question": "Which of these is the national game of USA?",
+        "option1": "Cricket",
+        "option2": "Baseball",
+        "option3": "Rugby",
+        "option4": "Hockey",
+        "correct_answer": "option2"
+    },
+    {
+        "question": "Fungi are plants that lack",
+        "option1": "Carbon Dioxide",
+        "option2": "Oxygen",
+        "option3": "Chlorophyll",
+        "option4": "None of these",
+        "correct_answer": "option3"
+    }, 
+    {    
         "question": "What is the Capital of New Zealand ?",
         "option1": "Auckland",
         "option2": "Wellington",
@@ -349,4 +366,5 @@
         "option4": "Queenstown",
         "correct_answer": "option2"
     }]
+ 
 }
