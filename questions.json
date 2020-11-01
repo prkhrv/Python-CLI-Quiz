@@ -261,7 +261,7 @@
         "option4": "Ariel",
         "correct_answer": "option3"
     },
-       {
+    {
         "question": "Which Year was the United Nations founded?",
         "option1": "1945",
         "option2": "1947",
@@ -285,7 +285,7 @@
         "option4": "1938",
         "correct_answer": "option2"
     },
-   {
+    {
         "question": "What is the most populous country in Africa?",
         "option1": "Ethiopia",
         "option2": "South Africa",
@@ -343,6 +343,14 @@
     },
     {
 
+        "question": "which country was origin of COVID 19?",
+        "option1": "Kenya",
+        "option2": "Spain",
+        "option3": "China",
+        "option4": "Italy",
+        "correct_answer": "option3"
+    },
+    {
         "question": "Which of these is the national game of USA?",
         "option1": "Cricket",
         "option2": "Baseball",
