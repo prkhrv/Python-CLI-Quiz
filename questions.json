@@ -1,5 +1,13 @@
 {
     "questions":[
+     {
+         "question":"What is 48,879 in hexidecimal?"
+         "option1":"0x18C1",
+         "option2":"0xBEEF",
+         "option3":"0xDEAD",
+         "option4":"0x12D591",
+         "correct_answer":"option1"
+     },   
     {
         "question": "What is the Capital of Uttar Pradesh?",
         "option1": "Kanpur",
